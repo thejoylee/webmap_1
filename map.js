@@ -68,14 +68,6 @@ map.on('click', function(event) {
 
 })
 
-let marker = new mapboxgl.Marker()
-marker.setLngLat([-73.967473,40.802487])
-marker.addTo(map)
-
-let popup = new mapboxgl.Popup()
-popup.setHTML('This is where you can find the best bagels on the UWS<br /><img src="https://assets3.thrillist.com/v1/image/1778387/size/tmg-venue_carousel_mobile.jpg" />')
-marker.setPopup(popup)
-
 let data = [
     {
         location: [-74.010176,40.703292],
@@ -83,15 +75,15 @@ let data = [
     },
     {
         location: [-74.009444,40.704526],
-        content: 'Hanover Square–the center of commerce in colonial New York'
+        content: 'Hanover Square–was both the center of commerce and confections in colonial New York in 1777'
     },
      {
         location: [-74.010293,40.705635],
         content: 'Delmonicos opened as a small confectionery shop on 23 William Street in 1827'
     },
      {
-        location: [-74.009444,40.704526],
-        content: 'Haagen-Dazs, created in the Bronx by Reuben and Rose Mattus, opened its first ice cream shop in 1976 on 120 Montague Street, Brooklyn Heights'
+        location: [-73.994702,40.694660],
+        content: 'Polish-Jewish confectioners Reuben and Rose Mattus created Haagen-Dazs Ice Cream and opened its first ice cream shop in 1976 on 120 Montague Street, Brooklyn Heights'
     },
     {
         location: [-73.987400,40.711476],
